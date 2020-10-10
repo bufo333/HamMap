@@ -1,0 +1,8 @@
+{% extends "_base.html" %}
+{% block content %}
+<div id='map' style=' position: absolute; top: 0; bottom: 0; width: 100%;'></div>
+{% if current_user.is_authenticated %}
+<div id="datadiv" data-user='{{ user|tojson }}'></div>
+{% endif %}
+<script src="/static/members.js"></script>
+{% endblock %}

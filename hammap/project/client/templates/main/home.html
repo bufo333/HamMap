@@ -1,0 +1,46 @@
+{% extends "_base.html" %}
+{% block content %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-9">
+      <strong>
+        <center>
+          <h1>HamMap! - ADIF Interactive Display</h1>
+        </center>
+      </strong>
+      <hr><br>
+    </div>
+  </div>
+  <div class="row">
+    <div class=col-5>
+      <p class="">Create an account to upload your ADIF files and see your contacts represented on an interactive map
+        and also interact with each of your
+        contacts visually on the map to get information about the contact. Currently we support most fields in the <a
+          href="http://www.qrz.com">QRZ</a>
+        logbook. We will continue to add support for additional fields as well as possibly the adix format in the
+        future. For now the tags most required to map
+        the contact and provide context such as distance, callsign, coordinates, band, sent rst, received rst, and a few
+        others are supported. Because of
+        the endless nature of custom fields and the limited size of database tables the team has decided for now to
+        support the standard fields in the
+        <a href="http://www.qrz.com">QRZ</a> logbook.
+
+      </p>
+      <img class="img-fluid rounded" src="/static/nautical.png">
+    </div>
+    <div class="col-4">
+      <p><img class="img-fluid rounded " style="max-height:300px" src="/static/frank.png"></p>
+      <p><img class="img-fluid rounded " style="max-height:300px" src="/static/mapbox.png"></p>
+
+    </div>
+
+
+
+
+
+
+
+
+  </div>
+</div>
+{% endblock %}

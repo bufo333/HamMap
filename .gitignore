@@ -1,0 +1,6 @@
+**/prod.db
+**/dev.db
+**/.env
+**/__pycache__
+**/migrations/
+**/*.swp
