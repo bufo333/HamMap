@@ -1,12 +1,10 @@
 [[source]]
-
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
 
 [packages]
-
 adif-io==0.0.3
 alembic==1.4.3
 bcrypt==3.2.0
@@ -48,7 +46,6 @@ WTForms==2.3.3
 
 
 [dev-packages]
-
 coverage = "*"
 flask-debugtoolbar = "*"
 flask-testing = "*"
@@ -56,5 +53,4 @@ flask-testing = "*"
 
 
 [requires]
-
 python_version = "3.8"
